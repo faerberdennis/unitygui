@@ -1,0 +1,74 @@
+.background {
+    background-color: rgb(204, 214, 228);
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.1s;
+    transition-delay: 0s;
+    opacity: 0.5;
+    border-left-width: 0;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+    margin-top: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    margin-left: 7px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.buttonHighlight:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    opacity: 1;
+    scale: 1.1 1.1;
+    text-shadow: 1px 1px 10px rgba(130, 119, 119, 0.35);
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.buttonHighlight:focus {
+    background-color: rgba(0, 0, 0, 0.13);
+    opacity: 1;
+    scale: 1.12 1.12;
+    text-shadow: 1px 1px 10px rgba(130, 120, 120, 0.35);
+    transition-duration: 0.1s;
+    transition-delay: 0.1s;
+}
+
+.buttonrow {
+    flex-basis: 100px;
+    flex-direction: row;
+    align-items: center;
+}
+
+.buttoniconcolumn {
+    flex-basis: 20%;
+    padding-top: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.buttonlabelcolumn {
+    flex-basis: 80%;
+}

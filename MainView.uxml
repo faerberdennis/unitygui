@@ -1,0 +1,123 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/MainStyle.uss?fileID=7433441132597879392&amp;guid=4643875c35b3d604b893545b0244e759&amp;type=3#MainStyle" />
+    <ui:VisualElement class="background" style="flex-grow: 1; flex-direction: column;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-basis: 8%;" />
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; flex-basis: 92%;">
+            <ui:VisualElement name="VisualElement" style="flex-grow: 0; flex-basis: 12%; width: auto;">
+                <ui:VisualElement name="NavigationBarVisualElement" class="navbar" style="flex-grow: 0; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 10px; border-top-right-radius: 10px; border-bottom-right-radius: 10px; border-bottom-left-radius: 10px;">
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn" style="height: 30px; flex-grow: 0; flex-direction: column; align-items: stretch; justify-content: center; align-self: auto;">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-einstellungen-64.png?fileID=2800000&amp;guid=53211c775756404408597376cf83a615&amp;type=3#icons8-einstellungen-64&quot;); -unity-background-scale-mode: scale-to-fit; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; height: 30px;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Settings" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" text="icon" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                    <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" class="button buttonHighlight" style="height: 50px;">
+                        <ui:VisualElement name="ButtonRowVisualElement" class="buttonrow" style="height: 30px;">
+                            <ui:VisualElement name="IconColumnVisualElement" class="buttoniconcolumn">
+                                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" style="background-image: url(&quot;project://database/Assets/UI-Icons/icons8-men%C3%BC-50.png?fileID=2800000&amp;guid=558cdf1e4e2e4d84cb01c5b10014176a&amp;type=3#icons8-menü-50&quot;); -unity-background-scale-mode: scale-to-fit;" />
+                            </ui:VisualElement>
+                            <ui:VisualElement name="LabelColumnVisualElement" class="buttonlabelcolumn">
+                                <ui:Label tabindex="-1" text="Menu" parse-escape-sequences="true" display-tooltip-when-elided="true" />
+                            </ui:VisualElement>
+                        </ui:VisualElement>
+                    </ui:Button>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="VisualElement" style="flex-grow: 1; flex-basis: 88%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
